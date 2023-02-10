@@ -29,7 +29,7 @@
 
 ## hcl
 Copy code
-## module "eks_cluster" {
+module "eks_cluster" {
   source = "git::<URL_OF_THIS_REPO>//eks_cluster?ref=main"
 
   env         = <env_name>
