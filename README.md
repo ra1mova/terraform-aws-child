@@ -26,7 +26,7 @@
 - *instance_public_ip - The public IP address of the bastion host EC2 instance.*
 ## Usage
 # To use this module, add the following code to your Terraform configuration:
-
+```terraform
  module "eks_cluster" {
   source = "git::<URL_OF_THIS_REPO>//eks_cluster?ref=main"
 
@@ -50,6 +50,7 @@
     },
   }
 }
+```
 # Then run terraform init and terraform apply to deploy the VPC, EC2 instances, and Amazon EKS cluster.
 
 ## Limitations
