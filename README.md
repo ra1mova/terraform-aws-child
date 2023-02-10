@@ -1,7 +1,7 @@
 # terraform-aws-child
 
-Terraform AWS EKS, EC2 Instance, and VPC Deployment
-This module deploys an Amazon EKS cluster, EC2 instances, and a VPC using Terraform.
+#Terraform AWS EKS, EC2 Instance, and VPC Deployment
+#This module deploys an Amazon EKS cluster, EC2 instances, and a VPC using Terraform.
 
 Requirements
 This module requires Terraform 0.12 or later and the following Terraform providers:
