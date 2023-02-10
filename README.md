@@ -30,12 +30,12 @@
 ## hcl
 Copy code
 ## module "eks_cluster" {
-  source = "github.com/your-repository-url.git"
+  - *source = "github.com/your-repository-url.git"*
 
-  vpc_cidr         = "10.0.0.0/16"
-  public_subnet_cidr = "10.0.1.0/24"
-  private_subnet_cidr = "10.0.2.0/24"
-  cluster_name     = "my-eks-cluster"
+  - *vpc_cidr         = "10.0.0.0/16"*
+  - *public_subnet_cidr = "10.0.1.0/24"*
+  - *private_subnet_cidr = "10.0.2.0/24"*
+  - *cluster_name     = "my-eks-cluster"*
 }
 # Then run terraform init and terraform apply to deploy the VPC, EC2 instances, and Amazon EKS cluster.
 
