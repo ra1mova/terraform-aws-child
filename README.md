@@ -27,9 +27,6 @@
 ## Usage
 # To use this module, add the following code to your Terraform configuration:
 
-## hcl
-Copy code
-
  module "eks_cluster" {
   source = "git::<URL_OF_THIS_REPO>//eks_cluster?ref=main"
 
